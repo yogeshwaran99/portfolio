@@ -31,7 +31,7 @@ const Code = () => {
       id: 3,
       img: Geeksforgeeks,      
       platform: 'GeeksforGeeks',
-      problemssolved: '240',
+      problemssolved: '246',
       link: 'https://www.geeksforgeeks.org/user/yogeshwaran99/',
     },
     {
