@@ -38,7 +38,7 @@ const Code = () => {
       id: 4,
       img: Codeforces,      
       platform: 'Codeforces',
-      problemssolved: '23',
+      problemssolved: '25',
       link: 'https://codeforces.com/profile/yogeshwaran99',
     },
   ];
