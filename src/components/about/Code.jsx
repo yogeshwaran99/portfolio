@@ -56,6 +56,7 @@ const Code = () => {
         spaceBetween={30} 
         slidesPerView={1}
         pagination={{ clickable: true }}
+         loop={true} 
         breakpoints={{
           1024: {
             slidesPerView: 4,
