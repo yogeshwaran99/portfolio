@@ -6,9 +6,7 @@
 #code h3 {
         color: var(--color-white);
         text-align: left;
-
-        margin-left: 11rem; 
-        
+        margin-left: 11rem;         
     }
     
 .code h4{
@@ -84,7 +82,6 @@
     margin-top: 17rem;
     margin-bottom: 0rem;
     margin-left: 0rem; 
-
 }
      
  }
