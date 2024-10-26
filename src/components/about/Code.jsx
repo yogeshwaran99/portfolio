@@ -1,10 +1,10 @@
 import React from 'react';
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import  Hackerrank from '../../assets/hackerrank.png';
-import  Leetcode from '../../assets/leetcode.png';
-import  Geeksforgeeks from '../../assets/geeksforgeeks.png';
-import  Codeforces from '../../assets/codeforces.png';
+import Hackerrank from '../../assets/hackerrank.png';
+import Leetcode from '../../assets/leetcode.png';
+import Geeksforgeeks from '../../assets/geeksforgeeks.png';
+import Codeforces from '../../assets/codeforces.png';
 
 import './code.css';
 
@@ -18,26 +18,30 @@ const Code = () => {
       img: Hackerrank,      
       platform: 'HackerRank',
       problemssolved: '142',
+      star:'5 (Java)',
       link: 'https://www.hackerrank.com/profile/yogeshwaran99',      
     },
     {
       id: 2,
       img: Leetcode,      
       platform: 'LeetCode',
-      problemssolved: '63',
+      rating: '1464',
+      problemssolved: '67',      
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {
       id: 3,
       img: Geeksforgeeks,      
       platform: 'GeeksforGeeks',
-      problemssolved: '257',
+      rating: '1785',
+      problemssolved: '263',
       link: 'https://www.geeksforgeeks.org/user/yogeshwaran99/',
     },
     {
       id: 4,
       img: Codeforces,      
       platform: 'Codeforces',
+      rating: '588',
       problemssolved: '31',
       link: 'https://codeforces.com/profile/yogeshwaran99',
     },
@@ -65,19 +69,24 @@ const Code = () => {
       >
         {code.map((coding) => (
           <SwiperSlide className="code" key={coding.id}>
-             <div className="code__img">
-                <img src={coding.img} alt={coding.platform} />
-              </div>
+            <div className="code__img">
+              <img src={coding.img} alt={coding.platform} />
+            </div>
             <h5 className='code__name'>{coding.platform}</h5>
+            
+            <h4 className='code__name'>
+              {coding.id === 1 
+                ? `Stars: ${coding.star}` : `Contest Rating: ${coding.rating}`} 
+            </h4>
             <h4 className='code__name'>Problems Solved: {coding.problemssolved}</h4>
             <a
-                  href={coding.link}
-                  target="_blank"
-                  className="btn"
-                  rel="noreferrer"
-                >
-                  visit
-                </a>
+              href={coding.link}
+              target="_blank"
+              className="btn"
+              rel="noreferrer"
+            >
+              visit
+            </a>
           </SwiperSlide>
         ))}
       </Swiper>
