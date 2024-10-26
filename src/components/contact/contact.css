@@ -10,7 +10,7 @@
 
 
 .contact__option {
-    
+    background-color: var(--color-ctn);
     padding: 1.2rem;
     border-radius: 1.2rem;
     display: flex;

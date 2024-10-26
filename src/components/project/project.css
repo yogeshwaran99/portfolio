@@ -9,7 +9,7 @@
 }
     
 .project__item {
-    
+    background-color: var(--color-ctn);
     padding: 1.3rem 1.3rem 0rem 1.3rem; 
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -21,7 +21,9 @@
 
 .project__item-image {
     border-radius: 1.5rem;
+    border: 1px solid transparent;
     overflow: hidden;
+    border-color: var(--color-primary-variant);
     width: 60%;              
     height:25%;            
     margin-left: 3.3rem;
