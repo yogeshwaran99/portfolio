@@ -57,7 +57,7 @@ const Code = () => {
       <Swiper 
         className="container code__container"
         modules={[Pagination]}
-        spaceBetween={isMobile ? 40 : (isDesktop ? 20 : 30)} 
+        spaceBetween={isMobile ? 40 : (isDesktop ? 25 : 30)} 
         slidesPerView={isMobile ? 1 : (isDesktop ? 4 : 2)}
         pagination={{ clickable: true }}
         loop={isMobile} 

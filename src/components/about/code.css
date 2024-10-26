@@ -1,13 +1,14 @@
 .container.code__container {
-     width: 100%;  
-     max-width: 82%;
+     width: 73%;  
+     margin-top: 3rem;
      }
 
 #code h3 {
         color: var(--color-white);
         text-align: left;
-        margin-left: 7.2rem; 
-        margin-bottom: 2rem;
+
+        margin-left: 11rem; 
+        
     }
     
 .code h4{
@@ -73,14 +74,17 @@
    
  @media screen and (max-width: 600px){
      .container.code__container {
-         width: 75%;
+         width: 73%;
          padding-bottom: 2.7rem;     
-         padding-top: 1.5rem;    
+         margin-top: 1.5rem;  
      }
      
 #code h3 {
+    text-align: center;
     margin-top: 17rem;
     margin-bottom: 0rem;
+    margin-left: 0rem; 
+
 }
      
  }
