@@ -1,14 +1,14 @@
-#profile {
+#home {
   height: 100vh;
   margin-top: 0;    
   background: linear-gradient(to bottom, #04477a 0%, #101c39 100%);
 
 }
-  #profile h1{
+  #home h1{
   font-size: 5rem;
   font-weight: 500;
 }
-.profile__container {  
+.home__container {  
   padding-top: 13rem;
   text-align: center;   
 }
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 1024px){
-  profile {
+  home {
     padding-top: 3rem;
   }
 
@@ -50,14 +50,14 @@
 
 @media screen and (max-width: 600px){
   
-  .profile__container {      
+  .home__container {      
     text-align: center;   
     }
   .cta{
     margin-bottom:0rem;
     margin-top: 4rem;
   }
-  #profile h1{
+  #home h1{
     padding-top: 2rem;
     font-size: 3rem;
     font-weight: 500;

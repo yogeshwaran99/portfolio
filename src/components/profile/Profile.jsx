@@ -3,10 +3,10 @@ import CTA from './CTA';
 import { FaLocationDot } from "react-icons/fa6";
 import './profile.css';
 
-const Profile = () => {
+const Home = () => {
   return (
-    <section id="profile">
-      <div className="container profile__container">        
+    <section id="home">
+      <div className="container home__container">        
         <h1>Yogeshwaran</h1>
         <h3 className="text-light">Software Developer</h3>
         <h4>
@@ -25,4 +25,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Home;

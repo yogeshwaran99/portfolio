@@ -5,7 +5,7 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState('#header');
 
   const navLinks = [
-    { id: '#profile', label: 'Home' },
+    { id: '#home', label: 'Home' },
     { id: '#about', label: 'About' },
     { id: '#skills', label: 'Skills' },
     { id: '#project', label: 'Projects' },
