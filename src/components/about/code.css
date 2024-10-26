@@ -58,11 +58,11 @@
      .container.code__container {
          width: 75%;
          padding-bottom: 2.7rem;     
-         padding-top: 1rem;    
+         padding-top: 0.5rem;    
      }
      
 #code h3 {
-    margin-top: 17rem;
+    margin-top: 15rem;
     margin-bottom: 1rem;
 }
      
