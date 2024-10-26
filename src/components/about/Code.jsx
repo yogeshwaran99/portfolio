@@ -68,26 +68,23 @@ const Code = () => {
         }}
       >
         {code.map((coding) => (
-          <SwiperSlide className="code" key={coding.id}>
-            <div className="code__img">
-              <img src={coding.img} alt={coding.platform} />
-            </div>
-            <h5 className='code__name'>{coding.platform}</h5>
-            
-            <h4 className='code__name'>
-              {coding.id === 1 
-                ? `Stars: ${coding.star}` : `Contest Rating: ${coding.rating}`} 
-            </h4>
-            <h4 className='code__name'>Problems Solved: {coding.problemssolved}</h4>
-            <a
-              href={coding.link}
-              target="_blank"
-              className="btn"
-              rel="noreferrer"
-            >
-              visit
-            </a>
-          </SwiperSlide>
+         <SwiperSlide className="code" key={coding.id}>
+         <div className="code__img-name">
+           <div className="code__img">
+             <img src={coding.img} alt={coding.platform} />
+           </div>
+           <h5 className="code__name">{coding.platform}</h5>
+         </div>
+         
+         <h4 className="code_name">
+           {coding.id === 1 ? `Stars: ${coding.star}` : `Contest Rating: ${coding.rating}`}
+         </h4>
+         <h4 className="code_name">Problems Solved: {coding.problemssolved}</h4>
+         <a href={coding.link} target="_blank" className="btn" rel="noreferrer">
+           Visit
+         </a>
+       </SwiperSlide>
+       
         ))}
       </Swiper>
     </section>
