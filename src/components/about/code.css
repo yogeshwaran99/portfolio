@@ -50,9 +50,9 @@
     
  }
  .code .btn {    
-    padding: 0.2rem 0.7rem;         
+    padding: 0.1rem 0.9rem;         
     margin-top: 0.9rem;
-    font-size: 0.8rem;            
+    font-size: 0.9rem;            
     border-radius: 2rem;         
     border: 1px solid var(--color-primary-variant); 
     display: inline-block;
