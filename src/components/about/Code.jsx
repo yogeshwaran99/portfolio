@@ -30,7 +30,7 @@ const Code = () => {
       img: Leetcode,      
       platform: 'LeetCode',
       rating: '1464',
-      problemssolved: '67',      
+      problemssolved: '70',      
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {
@@ -38,15 +38,15 @@ const Code = () => {
       img: Geeksforgeeks,      
       platform: 'GeeksforGeeks',
       rating: '1785',
-      problemssolved: '263',
+      problemssolved: '268',
       link: 'https://www.geeksforgeeks.org/user/yogeshwaran99/',
     },
     {
       id: 4,
       img: Codeforces,      
       platform: 'Codeforces',
-      rating: '588',
-      problemssolved: '31',
+      rating: '774',
+      problemssolved: '32',
       link: 'https://codeforces.com/profile/yogeshwaran99',
     },
   ];
