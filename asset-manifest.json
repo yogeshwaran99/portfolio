@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.875feecc.css",
-    "main.js": "/portfolio/static/js/main.4d425eda.js",
+    "main.js": "/portfolio/static/js/main.aade7a93.js",
     "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.5de35a0f83737058bbe4.png",
     "static/media/Yogeshwaran.pdf": "/portfolio/static/media/Yogeshwaran.b179d0f3d16c95ecc693.pdf",
     "static/media/texteditor.png": "/portfolio/static/media/texteditor.66a34b70c6f5450420e5.png",
     "static/media/snakegame.png": "/portfolio/static/media/snakegame.0abf45f46347063f82b9.png",
     "index.html": "/portfolio/index.html",
     "main.875feecc.css.map": "/portfolio/static/css/main.875feecc.css.map",
-    "main.4d425eda.js.map": "/portfolio/static/js/main.4d425eda.js.map"
+    "main.aade7a93.js.map": "/portfolio/static/js/main.aade7a93.js.map"
   },
   "entrypoints": [
     "static/css/main.875feecc.css",
-    "static/js/main.4d425eda.js"
+    "static/js/main.aade7a93.js"
   ]
 }
