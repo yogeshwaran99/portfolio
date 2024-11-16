@@ -20,16 +20,20 @@ const Code = () => {
     problemssolved: '...',
   });
 
+  const [leetcodeData, setLeetcodeData] = useState({
+    rating: '...',
+    problemssolved: '...',
+  });
+
   useEffect(() => {
-    
+
     const fetchCodeforcesData = async () => {
       try {
-    
         const userInfoResponse = await fetch(
           'https://codeforces.com/api/user.info?handles=yogeshwaran99'
         );
         const userInfoData = await userInfoResponse.json();
-        
+
         let rating = 'N/A';
         let rank = 'N/A';
         if (userInfoData.status === 'OK') {
@@ -38,12 +42,11 @@ const Code = () => {
           rank = userInfo.rank || 'N/A';
         }
 
-    
         const submissionsResponse = await fetch(
           'https://codeforces.com/api/user.status?handle=yogeshwaran99'
         );
         const submissionsData = await submissionsResponse.json();
-        
+
         let problemsSolvedCount = 'N/A';
         if (submissionsData.status === 'OK') {
           const solvedProblems = new Set();
@@ -56,7 +59,6 @@ const Code = () => {
           problemsSolvedCount = solvedProblems.size;
         }
 
-    
         setCodeforcesData({
           rating,
           rank,
@@ -67,7 +69,33 @@ const Code = () => {
       }
     };
 
+    const fetchLeetcodeData = async () => {
+  try {
+    const contestResponse = await fetch(
+      'https://alfa-leetcode-api.onrender.com/yogeshwaran99/contest'
+    );
+    const contestData = await contestResponse.json();
+
+    const solvedResponse = await fetch(
+      'https://alfa-leetcode-api.onrender.com/yogeshwaran99/solved'
+    );
+    const solvedData = await solvedResponse.json();
+
+    const rating = contestData.contestRating ? Math.round(contestData.contestRating) : 'N/A';
+      
+    const problemsSolved = solvedData.solvedProblem || 'N/A';
+
+    setLeetcodeData({
+      rating,
+      problemssolved: problemsSolved,
+    });
+  } catch (error) {
+    console.error('Error fetching LeetCode data:', error);
+  }
+};
+
     fetchCodeforcesData();
+    fetchLeetcodeData();
   }, []);
 
   const code = [
@@ -75,8 +103,8 @@ const Code = () => {
       id: 1,
       img: Leetcode,
       platform: 'LeetCode',
-      rating: '1444',
-      problemssolved: '106',
+      rating: leetcodeData.rating,
+      problemssolved: leetcodeData.problemssolved,
       link: 'https://leetcode.com/u/yogeshwaran99/',
     },
     {
@@ -96,8 +124,8 @@ const Code = () => {
       <Swiper
         className="container code__container"
         modules={[Pagination]}
-        spaceBetween={isMobile ? 40 : (isDesktop ? 25 : 30)}
-        slidesPerView={isMobile ? 1 : (isDesktop ? 4 : 2)}
+        spaceBetween={isMobile ? 40 : isDesktop ? 25 : 30}
+        slidesPerView={isMobile ? 1 : isDesktop ? 4 : 2}
         pagination={{ clickable: true }}
         loop={isMobile}
       >
@@ -127,6 +155,6 @@ const Code = () => {
       </Swiper>
     </section>
   );
-}
+};
 
 export default Code;
