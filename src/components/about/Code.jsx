@@ -15,9 +15,9 @@ const Code = () => {
   const isDesktop = useMediaQuery({ query: '(min-width: 1024px)' });
 
   const [codeforcesData, setCodeforcesData] = useState({
-    rating: 'Loading...',
-    rank: 'Loading...',
-    problemssolved: 'Loading...',
+    rating: '...',
+    rank: '...',
+    problemssolved: '...',
   });
 
   useEffect(() => {
