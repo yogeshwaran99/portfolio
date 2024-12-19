@@ -13,7 +13,7 @@ const Skills = () => {
           <div className="skills__content">
             <article className="skills__details"> 
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>C</h4>
+              <h4>C/C++</h4>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
