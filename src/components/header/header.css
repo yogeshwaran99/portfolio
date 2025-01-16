@@ -1,11 +1,16 @@
 nav {
   background: rgba(0, 0, 0, 0.3);
-  width: 100%;
+  width: max-content;
+  padding: 0.3rem 3rem 0.3rem 3rem;
+  border-radius: 2rem;
+  left: 50%;
+  top: 0.7rem;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;  
-  z-index: 300;
+  z-index: 2;
   position: fixed;
-  gap: 3.5rem;
+  gap: 5rem;
   -webkit-backdrop-filter: blur(15px); 
   backdrop-filter: blur(15px);            
 }
@@ -36,6 +41,8 @@ nav a.active {
     top: unset; 
     height: 50px;
     gap: 0.4rem;
+    margin-bottom: 0.5rem;
+    width: 95%;
   }
   nav a{
     padding: 0.5rem;  
