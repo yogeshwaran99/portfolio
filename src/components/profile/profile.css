@@ -1,5 +1,4 @@
 #home {
-  height: 100vh;
   margin-top: 0;    
   background: linear-gradient(to bottom, #04477a 0%, #101c39 100%);
 
@@ -10,6 +9,7 @@
 }
 .home__container {  
   padding-top: 13rem;
+  padding-bottom: 13rem;
   text-align: center;   
 }
 
