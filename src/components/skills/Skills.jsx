@@ -11,10 +11,6 @@ const Skills = () => {
         <div className="skills__tech"> 
         <h3>Skills</h3>
           <div className="skills__content">
-            <article className="skills__details"> 
-            <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>C/C++</h4>
-            </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>Java</h4>
@@ -25,19 +21,23 @@ const Skills = () => {
             </article>            
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
+              <h4>Javascript</h4>
+            </article>                       
+            <article className="skills__details">
+            <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>REST API</h4>
             </article>  
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>SQL</h4>
-            </article>
-            <article className="skills__details">
-            <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>MongoDB</h4>
+              <h4>Python</h4>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <h4>HTML</h4>
+            </article>
+            <article className="skills__details"> 
+            <BsFillPatchCheckFill className="skills__details-icon" />
+              <h4>C/C++</h4>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
@@ -45,12 +45,13 @@ const Skills = () => {
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Javascript</h4>
-            </article>                       
+              <h4>SQL</h4>
+            </article>            
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>React</h4>
+              <h4>React JS</h4>
             </article> 
+
           </div>
         </div>
         <div className="skills__tools"> 
