@@ -1,5 +1,6 @@
 #home {
   margin-top: 0;    
+  height: 100vh;
   background: linear-gradient(to bottom, #04477a 0%, #101c39 100%);
 
 }
@@ -8,8 +9,10 @@
   font-weight: 500;
 }
 .home__container {  
-  padding-top: 13rem;
-  padding-bottom: 13rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   text-align: center;   
 }
 
