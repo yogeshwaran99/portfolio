@@ -12,11 +12,11 @@ const Home = () => {
         <h4>
             <FaLocationDot style={{ marginRight: '0.5rem', fontSize: '0.7rem' }} />
             <a 
-                href="https://www.google.com/maps/place/Chennai,+Tamil+Nadu,+India" 
+                href="https://www.google.com/maps/place/Chennai" 
                 target="_blank" 
                 rel="noopener noreferrer"                
             >
-                Chennai, Tamil Nadu, India
+                Chennai, Tamil Nadu, India.
             </a>
         </h4>
         <CTA />       
