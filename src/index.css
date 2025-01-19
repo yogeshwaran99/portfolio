@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;700;900&display=swap');
+@import url(https://db.onlinewebfonts.com/c/2b0804c9f9d1a74efc52660586772abc?family=Angus-Regular); 
 
 * {
   margin: 0;
@@ -37,13 +37,22 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family:  "Angus-Regular"; 
   background-color: rgb(23, 23, 24);
   
   color: var(--color-white);
   line-height: 1.7;
   
   background-attachment: fixed;
+}
+@font-face {
+  font-family: "Angus-Regular";
+  src: url("https://db.onlinewebfonts.com/t/2b0804c9f9d1a74efc52660586772abc.eot");
+  src: url("https://db.onlinewebfonts.com/t/2b0804c9f9d1a74efc52660586772abc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/2b0804c9f9d1a74efc52660586772abc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/2b0804c9f9d1a74efc52660586772abc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/2b0804c9f9d1a74efc52660586772abc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/2b0804c9f9d1a74efc52660586772abc.svg#Angus-Regular")format("svg");
 }
 
 .container {
