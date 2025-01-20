@@ -1,7 +1,7 @@
 .container.contact__container {
     width: 58%;
     display: block;
-    margin-top: 11rem;
+    margin-top: 10.5rem;
 } 
 #contact{
     padding-top: 3rem;
@@ -30,7 +30,7 @@
 }
 
 .contact__option a {
-    
+    font-family: "Nunito Sans", serif;
     display: inline-block;
     font-size: 1rem;
 }
