@@ -8,7 +8,6 @@ nav {
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  font-weight: 600;  
   z-index: 2;
   position: fixed;
   gap: 5rem;
@@ -22,7 +21,8 @@ nav a {
   border-radius: 50%;
   display: flex; 
   color: var(--color-light); 
-  font-size: 1.3rem; 
+  font-size: 1.2rem; 
+  font-weight: 600;
   text-decoration: none; 
 }
 
@@ -46,7 +46,8 @@ nav a.active {
     width: 97%;
   }
   nav a{
-    padding: 0.5rem;  
+    padding: 0.5rem; 
+    font-weight: 700; 
     font-size: 0.9rem;
   }
   
