@@ -7,7 +7,14 @@
     padding-top: 7%;
 
 }
-    
+.project__item-content .btn{
+    padding: 0.1rem 0.9rem;         
+    margin-top: 1rem;
+    margin-left: 5.5rem;
+    font-size: 0.9rem;            
+    border-radius: 2rem;         
+    border: 1px solid var(--color-primary-variant);         
+}    
 .project__item {
     background-color: var(--color-ctn);
     padding: 1.3rem 1.3rem 0rem 1.3rem; 

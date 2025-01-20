@@ -45,9 +45,7 @@ const Project = () => {
               </div>
               <div className="project__item-content">
                 <h3>{pro.title}</h3>
-                <p>{pro.description}</p>                
-              </div>
-              <div className="project__item-cta">
+                <p>{pro.description}</p>                              
                 <a
                   href={pro.github}
                   target="_blank"

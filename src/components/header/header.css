@@ -40,7 +40,7 @@ nav a.active {
     bottom: 0; 
     top: unset; 
     height: 50px;
-    gap: 0.3rem;
+    gap: 0rem;
     margin-bottom: 0.5rem;
     width: 97%;
   }
