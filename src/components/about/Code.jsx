@@ -140,9 +140,10 @@ const Code = () => {
 
             <div className="code__right">
               <h4 className="code_name">
-                {coding.platform === 'Codeforces'
+                {`Contest Rating: ${coding.rating}`}
+                {/*{coding.platform === 'Codeforces'
                   ? `Contest Rating: ${coding.rating} (${coding.rank})`
-                  : `Contest Rating: ${coding.rating}`}
+                  : `Contest Rating: ${coding.rating}`} */}
               </h4>
               <h4 className="code_name">Problems Solved: {coding.problemssolved}</h4>
             </div>
