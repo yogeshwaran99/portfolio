@@ -50,9 +50,6 @@
         padding: 2rem;
     }
 
-    .skills__content p {
-        padding: 1rem;
-    }
 }
 
 @media screen and (max-width: 600px) {
