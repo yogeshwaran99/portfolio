@@ -13,43 +13,43 @@ const Skills = () => {
           <div className="skills__content">
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Java</h4>
+              <p>Java</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Springboot</h4>
+              <p>Springboot</p>
             </article>            
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Javascript</h4>
+              <p>Javascript</p>
             </article>                       
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>REST API</h4>
+              <p>REST API</p>
             </article>  
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Python</h4>
+              <p>Python</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>HTML</h4>
+              <p>HTML</p>
             </article>
             <article className="skills__details"> 
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>C/C++</h4>
+              <p>C/C++</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>CSS</h4>
+              <p>CSS</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>SQL</h4>
+              <p>SQL</p>
             </article>            
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>React JS</h4>
+              <p>React JS</p>
             </article> 
 
           </div>
@@ -59,43 +59,43 @@ const Skills = () => {
           <div className="skills__content">
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Eclipse</h4>
+              <p>Eclipse</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>IntelliJ IDEA</h4>
+              <p>IntelliJ IDEA</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>VS Code</h4>
+              <p>VS Code</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Spring Tools</h4>
+              <p>Spring Tools</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Postman</h4>
+              <p>Postman</p>
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Git/GitHub</h4>
+              <p>Git/GitHub</p>
             </article>          
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Docker</h4>
+              <p>Docker</p>
             </article>       
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Vim</h4>
+              <p>Vim</p>
             </article>   
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Bash</h4>
+              <p>Bash</p>
             </article>       
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <h4>Android Studio</h4>
+              <p>Android Studio</p>
             </article>       
           </div>
         </div>        
