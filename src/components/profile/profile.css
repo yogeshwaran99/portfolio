@@ -8,6 +8,9 @@
   font-size: 5rem;
   font-weight: 500;
 }
+#home a{
+  font-family: 'Poppins', sans-serif;
+}
 .home__container {  
   position: absolute;
   top: 50%;
