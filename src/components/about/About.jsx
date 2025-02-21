@@ -125,7 +125,7 @@ const About = () => {
         <div className="about__content">
         <p>Aspiring Software Developer with a<span className="highlight"> Bachelor of Engineering</span> degree in Electronics and Communication Engineering. Driven by a passion for technology and innovation, particularly in <span className="highlight">Java</span>, I stay updated with the latest trends. My strength lies in problem-solving and creativity, and I am eager to work with teams to craft solutions.</p>
         </div>      
-        <h3>Coding Profiles</h3>
+        <h3>Coding Profile</h3>
       </div>  
       <Swiper
         className="container code__container"
