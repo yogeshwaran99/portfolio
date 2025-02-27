@@ -25,7 +25,7 @@ const Skills = () => {
             </article>                       
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <p>REST API</p>
+              <p>APIs</p>
             </article>  
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
@@ -68,11 +68,7 @@ const Skills = () => {
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <p>VS Code</p>
-            </article>
-            <article className="skills__details">
-            <BsFillPatchCheckFill className="skills__details-icon" />
-              <p>Spring Tools</p>
-            </article>
+            </article>            
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <p>Postman</p>
@@ -84,6 +80,10 @@ const Skills = () => {
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
               <p>Docker</p>
+            </article>
+            <article className="skills__details">
+            <BsFillPatchCheckFill className="skills__details-icon" />
+              <p>Linux</p>
             </article>       
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
