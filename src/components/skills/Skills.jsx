@@ -75,7 +75,7 @@ const Skills = () => {
             </article>
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
-              <p>Git &  GitHub</p>
+              <p>Git & GitHub</p>
             </article>          
             <article className="skills__details">
             <BsFillPatchCheckFill className="skills__details-icon" />
