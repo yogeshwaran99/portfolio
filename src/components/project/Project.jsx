@@ -11,7 +11,7 @@ const Project = () => {
       id: 1,
       title: 'E-Commerce',
       img: IMG1,
-      description: 'This project is a full-stack e-commerce application built with Java (Spring Boot) for the backend, PostgreSQL as the database, React for the frontend, and a REST API for interaction.',
+      description: 'This project is a full-stack e-commerce application built with Java and Spring Boot (backend), PostgreSQL (database), and React (frontend), featuring JWT-secured RBAC.',
       github: 'https://github.com/yogeshwaran99/E-commerce',
     
     },
