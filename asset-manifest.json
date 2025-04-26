@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b164c7cd.css",
-    "main.js": "/portfolio/static/js/main.7eacf0b8.js",
-    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.5de35a0f83737058bbe4.png",
-    "static/media/Yogeshwaran.pdf": "/portfolio/static/media/Yogeshwaran.a9be8790de4a6e8a23ac.pdf",
-    "static/media/texteditor.png": "/portfolio/static/media/texteditor.66a34b70c6f5450420e5.png",
-    "static/media/snakegame.png": "/portfolio/static/media/snakegame.0abf45f46347063f82b9.png",
-    "index.html": "/portfolio/index.html",
-    "main.b164c7cd.css.map": "/portfolio/static/css/main.b164c7cd.css.map",
-    "main.7eacf0b8.js.map": "/portfolio/static/js/main.7eacf0b8.js.map"
+    "main.css": "/static/css/main.b164c7cd.css",
+    "main.js": "/static/js/main.a5efdb36.js",
+    "static/media/ecommerce.png": "/static/media/ecommerce.5de35a0f83737058bbe4.png",
+    "static/media/Yogeshwaran.pdf": "/static/media/Yogeshwaran.a9be8790de4a6e8a23ac.pdf",
+    "static/media/texteditor.png": "/static/media/texteditor.66a34b70c6f5450420e5.png",
+    "static/media/snakegame.png": "/static/media/snakegame.0abf45f46347063f82b9.png",
+    "index.html": "/index.html",
+    "main.b164c7cd.css.map": "/static/css/main.b164c7cd.css.map",
+    "main.a5efdb36.js.map": "/static/js/main.a5efdb36.js.map"
   },
   "entrypoints": [
     "static/css/main.b164c7cd.css",
-    "static/js/main.7eacf0b8.js"
+    "static/js/main.a5efdb36.js"
   ]
 }
