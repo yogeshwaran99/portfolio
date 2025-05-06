@@ -12,6 +12,7 @@
     color: var(--color-light);
     font-weight: 600;
     text-indent: 40px;
+    text-align: left;
 }
 
 .highlight {
