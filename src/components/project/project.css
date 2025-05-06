@@ -4,8 +4,11 @@
     gap: 2.5rem;       
 }
 #project{
-    padding-top: 7%;
-
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .project__item-content .btn{
     padding: 0.1rem 0.9rem;         
@@ -64,8 +67,11 @@
 }
   
 @media screen and (max-width: 600px){
+    #project{
+        height: 100%;
+    }
     .project__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;        
         gap: 2rem;
     }
 }

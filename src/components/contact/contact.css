@@ -1,14 +1,15 @@
 .container.contact__container {
     width: 58%;
-    display: block;
-    margin-top: 10.5rem;
+    margin: 7%;
 } 
 #contact{
-    padding-top: 3rem;
-    padding-bottom: 5.5rem;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;    
 }
-
-
 .contact__option {
     background-color: var(--color-ctn);
     padding: 1.2rem;
@@ -35,18 +36,13 @@
     font-size: 1rem;
 }
 .contact__option a:hover {
-
     color: var(--color-hover);
-
 }
 .contact__option h5 {
     font-size: 1rem;
     color: var(--color-light);
 }
 
-.contact__option h4 {
-    font-weight: 500;
-}
 
 
 @media screen and (max-width: 1024px){
@@ -59,5 +55,6 @@
 @media screen and (max-width: 600px){
     .container.contact__container {
         width: var(--container-width-sm);
+        margin: 40%;
     }
 }

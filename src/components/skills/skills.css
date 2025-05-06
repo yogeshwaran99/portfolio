@@ -3,10 +3,14 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
-#skills { 
-    padding-top: 7%;
-}
+#skills{
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 
+}
 .skills__container > div { 
     background-color: var(--color-ctn);
     padding: 2.4rem 5rem;

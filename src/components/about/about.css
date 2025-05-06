@@ -1,9 +1,12 @@
-.about__container {    
-    height: 0vh;
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
 }
-#about{
-padding-top: 5.5rem;
-}
+
 .about__content p {
     font-family: "Nunito Sans", serif;
     color: var(--color-light);
@@ -24,26 +27,19 @@ padding-top: 5.5rem;
   
   .container.code__container {
     width: 73%;  
-    margin-top: 12rem;
 }
 
 #about h3 {
     color: var(--color-white);
     text-align: left;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .code h4 {
     color: var(--color-light);
 }
 
-.code__img-name {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column; 
-    text-align: center; 
-}
 
 .code__img {
     width: 2rem; 
@@ -64,8 +60,7 @@ padding-top: 5.5rem;
     align-items: center; 
     background-color: var(--color-ctn);
     padding: 1.2rem 1rem;  
-    border-radius: 2rem;
-    user-select: none;
+    border-radius: 3rem;    
     flex-grow: 1;
     border: 1px solid transparent;
     border-color: var(--color-primary-variant);
@@ -122,9 +117,7 @@ padding-top: 5.5rem;
 }
   
 @media screen and (max-width: 600px){    
-    #about{
-        padding-top: 2rem;
-        }
+    
     .about__content {
         text-align: center;
     }
@@ -134,8 +127,7 @@ padding-top: 5.5rem;
     }
     .container.code__container {
         width: 73%;
-        padding-bottom: 2.7rem;     
-        margin-top: 20rem;  
+        padding-bottom: 2.7rem;         
     }
 
     #about h3 {

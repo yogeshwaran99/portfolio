@@ -2,10 +2,8 @@ footer {
     background: rgb(39, 36, 36);
     padding: 1rem 0;
     text-align: center;
-    font-size: 0.9rem;
-    margin-top: 5rem;
+    font-size: 0.9rem;    
 }
-
 
 .footer__socials {
     display: flex;
