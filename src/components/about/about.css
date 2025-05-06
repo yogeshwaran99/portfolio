@@ -119,7 +119,7 @@
   
 @media screen and (max-width: 600px){    
     #about{
-        padding-bottom: 10%;
+        margin-bottom: 10%;
     }
     .about__content {
         text-align: center;
