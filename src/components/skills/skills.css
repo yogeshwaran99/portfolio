@@ -62,6 +62,7 @@
     #skills{
         height: 100%;
         margin-bottom: 10%;
+        padding-top: 10%;
     }
 
     .skills__container { 
