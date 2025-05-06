@@ -127,8 +127,7 @@
     .about__content {
         text-align: center;
     }
-    .about__content p {
-        margin: 1.5rem 0;
+    .about__content p {        
         text-align: left;
     }
     .container.code__container {
