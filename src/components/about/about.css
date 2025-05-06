@@ -25,8 +25,9 @@
     white-space: nowrap;
   }
   
-  .container.code__container {
-    width: 73%;  
+  .container.code__container {    
+    display: flex; 
+    justify-content: center;
 }
 
 #about h3 {
@@ -117,7 +118,9 @@
 }
   
 @media screen and (max-width: 600px){    
-    
+    #about{
+        padding-bottom: 10%;
+    }
     .about__content {
         text-align: center;
     }

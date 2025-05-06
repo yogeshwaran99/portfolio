@@ -12,7 +12,7 @@ const Home = () => {
         <h4>
             <FaLocationDot style={{ marginRight: '0.5rem', fontSize: '0.7rem' }} />
             <a 
-                href="https://www.google.com/maps/place/Chennai" 
+                href="https://www.google.com/maps/place/chennai" 
                 target="_blank" 
                 rel="noopener noreferrer"                
             >
