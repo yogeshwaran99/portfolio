@@ -1,6 +1,6 @@
 import React from 'react';
 import IMG1 from '../../assets/ecommerce.png';
-import IMG2 from '../../assets/texteditor.png';
+import IMG2 from '../../assets/to_do_list.png';
 import IMG3 from '../../assets/snakegame.png';
 
 import './project.css';
@@ -17,9 +17,9 @@ const Project = () => {
     },
     {
       id: 2,
-      title: 'Text Editor',
+      title: 'To-Do List',
       img: IMG2,
-      description: 'The Java-based Text Editor provides a platform for creating and editing text documents with font selection, bold, italic and underline. It aims to enhance the editing experience.',
+      description: 'This is a simple to-do list application that allows users to add, update, delete, and mark tasks as completed. It is built with the MERN stack and uses Axios for REST API implementation.',
       github: 'https://github.com/yogeshwaran99/TextEditor',
     
     },
