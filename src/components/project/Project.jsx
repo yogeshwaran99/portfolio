@@ -20,7 +20,7 @@ const Project = () => {
       title: 'To-Do List',
       img: IMG2,
       description: 'This is a simple to-do list application that allows users to add, update, delete, and mark tasks as completed. It is built with the MERN stack and uses Axios for REST API implementation.',
-      github: 'https://github.com/yogeshwaran99/TextEditor',
+      github: 'https://github.com/yogeshwaran99/to-do-list',
     
     },
     {
