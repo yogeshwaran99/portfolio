@@ -1,0 +1,52 @@
+#home{
+  height: 100dvh;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;    
+  padding: 0 10%;
+  height: 100%;
+}
+
+.home-heading {
+  color: rgb(27, 141, 235);
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 10px;
+}
+
+.home-span {
+  font-weight: normal;
+  color: rgba(222, 222, 226, 0.959);
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.home-subheading {
+  color: rgba(222, 222, 226, 0.808);
+  font-size: 14px;
+  text-align: center;
+
+}
+
+@media screen and (min-width: 600px){     
+  .home-container{
+    align-items: center;
+    width: 86%;
+    padding: 0% 7%;
+  }
+  .home-heading{
+    font-size: 60px;
+    text-align: center;
+  }
+  .home-span{
+    font-size: 40px;
+  }
+  .home-subheading{
+    font-size: 18px;
+    text-align: center;
+
+  }
+}

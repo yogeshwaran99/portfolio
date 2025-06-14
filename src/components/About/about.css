@@ -1,0 +1,41 @@
+.about-section {
+  height: 100dvh;
+}
+
+.about-header {
+  height: 10dvh;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10%;    
+}
+
+.about-content {
+  display: flex;  
+  height: 70dvh;
+  flex-direction: column;
+  padding: 10% 10%;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.highlight {
+  color: #007acc;
+}
+
+
+
+@media screen and (min-width: 600px){    
+  .about-section{
+    padding:0 100px;
+  }
+  .about-header{
+    height: 20vh;      
+    padding-left: 0;
+    padding-top: 5vh;
+  }
+  .about-content{      
+    height: 60vh;
+    font-size: 18px;
+    padding: 0;
+  }
+}
