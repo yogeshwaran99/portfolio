@@ -3,7 +3,7 @@ import IMG1 from "../../assets/ecommerce.png";
 import IMG2 from "../../assets/to_do_list.png";
 import IMG3 from "../../assets/snakegame.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -32,7 +32,7 @@ function Projects() {
       title: "Snake Game",
       img: IMG3,
       description:
-        "The Snake Game in Java involves guiding a snake to eat food, grow, and avoid collisions. Built with Swing, it features smooth movement, random food generation, and a scoring system.",
+        "The Snake Game in Java involves guiding a snake to eat food, grow, and avoid collisions. Built with Swing, it features random food generation, and a scoring system.",
       github:
         "https://github.com/yogeshwaran99/MiniProjects/tree/main/SnakeGame",
     },
@@ -46,6 +46,7 @@ function Projects() {
           modules={[Pagination]}
           pagination={{ clickable: true }}
           spaceBetween={30}
+          loop={true}
           breakpoints={{
             0: {
               slidesPerView: 1,

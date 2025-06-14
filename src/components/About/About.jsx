@@ -49,7 +49,7 @@ function About() {
             rel="noopener noreferrer"
             className="highlight"
           >
-            LeetCode
+            Leetcode
           </a>{" "}
           and{" "}
           <a

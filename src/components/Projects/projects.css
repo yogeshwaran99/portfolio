@@ -13,7 +13,7 @@
   align-items: center;
 }
 .project-card {  
-  border: 1px dotted rgb(42, 108, 134);
+  border: 1px solid rgba(42, 108, 134, 0.644);
   padding: 20px;
   margin: 15% auto;   
   border-radius: 20px;
@@ -26,23 +26,27 @@
 }
 .project-image {
   border-radius: 10px;
-  border: 1px solid grey;
+  border: 1px solid rgba(63, 97, 189, 0.562);
   width: 90%;
-  height: auto;
+  height: 30%;
 }
 
 .project-description {
   margin: 10px 0;
-  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;  
+  -webkit-box-orient: vertical;
+  overflow: hidden;  
+  width: 90%;
   padding:0 10px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .project-button {
   margin-top: 10px;
   color: white;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
   padding: 1px 7px;
   border: 1px solid hsla(206, 100%, 50%, 0.685);
   border-radius: 10px;
@@ -52,16 +56,22 @@
 
 
 @media screen and (min-width: 600px){    
+
   .projects-section{
     padding:0 100px;       
   }
+
   .projects-heading{
     height: 15vh;      
     padding-left: 0;
     padding-top: 5vh;
   }
+
   .project-card{
     padding-bottom: 35px;
+    height: auto;
+    gap: 5px;
+    padding: 15px;
   }
 
 }

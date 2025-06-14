@@ -28,7 +28,7 @@
 
 .contact-email {
   text-decoration: none;
-  color: #579bda;
+  color: #007acc;
 }
 
 .contact-email:visited {
@@ -51,14 +51,18 @@
   width: 80%;
   margin: 8% 0;
   padding: 3%;
+  background-color: inherit;
+  border: 1px solid rgba(64, 133, 197, 0.74);
+  color: inherit;
   resize: none;
 }
 
 .contact-button {
   padding: 1px 7px;
   border-radius: 10px;
-  font-size: 12px;
-  border: 1px solid hsla(206, 100%, 50%, 0.74);
+  font-size: 13px;
+  color: inherit;
+  border: 1px solid hsla(206, 100%, 50%, 0.74);  
   background-color: rgba(230, 230, 230, 0.014);
 }
 
@@ -75,9 +79,9 @@
 
 .social-icons {
   position: absolute;
-  left: 0;
+  left: 10px;
   display: flex;
-  gap: 1em;
+  gap: 2em;
 }
 
 .fa-icon{
@@ -91,52 +95,59 @@
 
 .social-insta {
   position: absolute;
-  right: 0;    
+  right: 10px;    
 }
 
 
 
 @media screen and (min-width: 600px){    
+
   .contact-section{
     padding:0 100px;
   }
+
   .contact-header{
     height: 20vh;      
     padding-left: 0;
     padding-top: 5vh;
   }
+
   .contact-content{
     height: 70vh;
     padding: 0;
   }
+
   .contact-text{            
     font-size: 18px;
     height: 50%
   }
+
   .contact-form {
     height: 50%;
     gap: 30px;
     flex-direction: row;
   }
+
   .contact-textarea {
     width: 50%;
     padding: 10px;
   }
+
   .contact-button {
     font-size: 15px;
     padding: 5px 10px;
   }
+
   .contact-footer {    
     bottom: 5vh;
   }
+
   .social-icons {
     gap:40px;
   }
+
   .fa-icon{
     height: 30px;
     width: 30px;
   }
-
-
-
 }
