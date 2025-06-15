@@ -43,7 +43,7 @@ const Contact = () => {
             <a href="mailto:itsyogeshwaran@gmail.com" className="contact-email">
               {" "}
               itsyogeshwaran@gmail.com
-            </a>
+            </a>.
           </p>
           <p>Or simply drop your message in the box below!</p>
         </div>
