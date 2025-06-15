@@ -36,10 +36,8 @@ const Contact = () => {
       <div className="contact-content">
         <div className="contact-text">
           <p>
-            Got a question, an idea, or just want to say hello? I’m always open to
-            hearing from you.
+            Have a question, an idea, or just want to say hi? I’m always happy to hear from you.
           </p>
-
           <p>
             You can reach me directly at
             <a href="mailto:itsyogeshwaran@gmail.com" className="contact-email">
