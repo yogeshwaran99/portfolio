@@ -1,6 +1,6 @@
 # My Portfolio
 
-A personal portfolio website built with **React** to showcase my projects, skills.
+A personal portfolio website built with React to showcase my projects, skills.
 
 ## preview
 
