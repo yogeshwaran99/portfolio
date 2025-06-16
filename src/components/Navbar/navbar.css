@@ -25,7 +25,7 @@
 }
 
 .nav-logo {            
-  font-size: 0;
+  display: none;
 }
 
 .nav-link {
@@ -64,6 +64,7 @@
   font-weight: 700;  
   font-size: 20px;  
   left:0;
+  display:inline;
 }
 
 }  
