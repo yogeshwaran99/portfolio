@@ -1,7 +1,8 @@
 import React from "react";
-import IMG1 from "../../assets/ecommerce.png";
-import IMG2 from "../../assets/to_do_list.png";
-import IMG3 from "../../assets/snakegame.png";
+import IMG1 from "../../assets/whiteboard.png";
+import IMG2 from "../../assets/ecommerce.png";
+import IMG3 from "../../assets/to_do_list.png";
+import IMG4 from "../../assets/snakegame.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
@@ -13,24 +14,32 @@ function Projects() {
   const soloProjects = [
     {
       id: 1,
-      title: "E-Commerce",
+      title: "whiteboard",
       img: IMG1,
+      description:
+        "A real-time collaborative whiteboard app with drawing and chat features, built using Java, Spring Boot, WebSocket, and STOMP. Users can create, join, and manage rooms for interactive sessions.",
+      github: "https://github.com/yogeshwaran99/whiteboard",
+    },
+    {
+      id: 2,
+      title: "E-Commerce",
+      img: IMG2,
       description:
         "This project is a full-stack e-commerce application built with Java and Spring Boot (backend), PostgreSQL (database), and React (frontend), featuring JWT-secured RBAC.",
       github: "https://github.com/yogeshwaran99/E-commerce",
     },
     {
-      id: 2,
+      id: 3,
       title: "To-Do List",
-      img: IMG2,
+      img: IMG3,
       description:
         "This is a simple to-do list application that allows users to add, update, delete, and mark tasks as completed. It is built with the MERN stack and uses Axios for REST API implementation.",
       github: "https://github.com/yogeshwaran99/to-do-list",
     },
     {
-      id: 3,
+      id: 4,
       title: "Snake Game",
-      img: IMG3,
+      img: IMG4,
       description:
         "The Snake Game in Java involves guiding a snake to eat food, grow, and avoid collisions. Built with Swing, it features random food generation, and a scoring system.",
       github:
