@@ -52,8 +52,9 @@
   border-radius: 10px;
 
 }
-
-
+.swiper-pagination-bullet{
+  background-color:#007aff;
+}
 
 @media screen and (min-width: 600px){    
 
@@ -62,14 +63,13 @@
   }
 
   .projects-heading{
-    height: 15vh;      
-    padding-left: 0;
-    padding-top: 5vh;
+    height: 5vh;      
+    padding-top: 100px;
+    margin: 0;
   }
 
-  .project-card{
-    padding-bottom: 35px;
-    height: auto;
+  .project-card{    
+    height: 58vh;
     gap: 5px;
     padding: 15px;
   }

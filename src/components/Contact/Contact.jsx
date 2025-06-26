@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import "./contact.css";

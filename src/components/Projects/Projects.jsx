@@ -1,12 +1,10 @@
-import React from "react";
 import IMG1 from "../../assets/whiteboard.png";
 import IMG2 from "../../assets/ecommerce.png";
 import IMG3 from "../../assets/to_do_list.png";
 import IMG4 from "../../assets/snakegame.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, FreeMode} from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./projects.css";
 
@@ -52,9 +50,10 @@ function Projects() {
       <h1 className="projects-heading">Projects</h1>
       <div className="card-container">
         <Swiper
-          modules={[Pagination]}
-          pagination={{ clickable: true }}
-          spaceBetween={30}
+          modules={[Pagination, FreeMode]}
+          pagination={{ clickable: true }}          
+          spaceBetween={30}          
+          freeMode={{enabled:true,momentum:true,momentumBounce:true}}
           loop={true}
           breakpoints={{
             0: {
