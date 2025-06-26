@@ -4,7 +4,7 @@ function About() {
   return (
     <section id="about" className="about-section">
       <div className="about-header">
-        <h1>About me</h1>
+        <h1>About</h1>
       </div>
       <div className="about-content">
         <p>
