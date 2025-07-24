@@ -40,8 +40,8 @@ function About() {
           control.
         </p>
         <p>
-          Passionate about problem-solving and actively participating in coding
-          challenges on platforms like{" "}
+          Passionate about problem-solving and regularly participating in coding
+          challenges on{" "}
           <a
             href="https://leetcode.com/u/yogeshwaran99"
             target="_blank"
@@ -49,15 +49,6 @@ function About() {
             className="highlight"
           >
             Leetcode
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://codeforces.com/profile/yogeshwaran99"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="highlight"
-          >
-            Codeforces
           </a>
           .
         </p>
