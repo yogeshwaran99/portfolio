@@ -40,17 +40,7 @@ function About() {
           control.
         </p>
         <p>
-          Passionate about problem-solving and regularly participating in coding
-          challenges on{" "}
-          <a
-            href="https://leetcode.com/u/yogeshwaran99"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="highlight"
-          >
-            Leetcode
-          </a>
-          .
+          Skilled in debugging, performance optimization, and writing clean, maintainable code following best practices.                  
         </p>
       </div>
     </section>
