@@ -2,8 +2,8 @@ import IMG1 from "../../assets/whiteboard.png";
 import IMG2 from "../../assets/ecommerce.png";
 import IMG3 from "../../assets/to_do_list.png";
 import IMG4 from "../../assets/snakegame.png";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination} from "swiper/modules";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Pagination} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./projects.css";
@@ -23,7 +23,7 @@ function Projects() {
       title: "E-Commerce",
       img: IMG2,
       description:
-        "This project is a full-stack e-commerce application built with Java and Spring Boot (backend), PostgreSQL (database), and React (frontend), featuring JWT-secured RBAC.",
+        "A full-stack e-commerce application built with Java and Spring Boot, PostgreSQL, and React, featuring JWT-RBAC with Spring Security, and deployed using Nginx and Docker Compose.",
       github: "https://github.com/yogeshwaran99/E-commerce",
     },
     {
@@ -50,9 +50,9 @@ function Projects() {
       <h1 className="projects-heading">Projects</h1>
       <div className="card-container">
         <Swiper
-          modules={[ Pagination ]}
-          pagination={{ clickable: true }}          
-          spaceBetween={30}          
+          modules={[Pagination]}
+          pagination={{clickable: true}}
+          spaceBetween={30}
           loop={true}
           breakpoints={{
             0: {
