@@ -8,27 +8,21 @@ function About() {
       </div>
       <div className="about-content">
         <p>
-          I’m a software developer with a Bachelor’s in Electronics and
+          I’m a  <span className="highlight">software developer </span>with a Bachelor’s in Electronics and
           Communication Engineering.
         </p>
 
         <p>
-          I work with languages like <span className="highlight">Java</span>,{" "}
-          <span className="highlight">JavaScript</span>,{" "}
-          <span className="highlight">Python</span>,{" "}
-          <span className="highlight">C</span>, and{" "}
-          <span className="highlight">C++</span> to build scalable full-stack
-          solutions. My projects typically combine{" "}
-          <span className="highlight">Spring Boot</span>,{" "}
-          <span className="highlight">SQL</span>,{" "}
-          <span className="highlight">MongoDB</span>,{" "}
-          <span className="highlight">REST APIs</span>, and{" "}
-          <span className="highlight">GraphQL</span> on the backend with{" "}
+          I specialize in building scalable full-stack applications using{" "}
+          <span className="highlight">Java</span> and{" "}
+          <span className="highlight">JavaScript</span>. My backend development leverages{" "}
+          <span className="highlight">Spring Boot</span> and{" "}
+          <span className="highlight">SQL</span> to create robust, high-performance APIs, while the frontend is crafted with{" "}
           <span className="highlight">React</span>,{" "}
-          <span className="highlight">HTML</span>, and{" "}
-          <span className="highlight">CSS</span> on the frontend for clean and
-          efficient applications.
+          <span className="highlight">HTML</span> and{" "}
+          <span className="highlight">CSS</span> for responsive and intuitive user experiences.
         </p>
+
 
         <p>
           My workflow centers around <span className="highlight">Vim</span>,{" "}
@@ -39,9 +33,13 @@ function About() {
           testing, and <span className="highlight">GitHub</span> for version
           control.
         </p>
+
         <p>
-          Skilled in debugging, performance optimization, and writing clean, maintainable code following best practices.                  
+          Skilled in <span className="highlight">debugging</span> and{" "}
+          <span className="highlight">optimization</span> to improve performance, stability, and code efficiency.
         </p>
+
+
       </div>
     </section>
   );
