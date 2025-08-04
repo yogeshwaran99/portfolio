@@ -1,11 +1,11 @@
 .about-section {
   height: 100dvh;
+  display:flex;
+ flex-direction:column; 
 }
 
 .about-header {
   height: 10dvh;
-  display: flex;
-  align-items: flex-end;
   padding-left: 10%;    
 }
 
@@ -27,9 +27,10 @@
 @media screen and (min-width: 600px){    
   .about-section{
     padding:0 100px;
+    justify-content:center;
   }
   .about-header{
-    height: 20vh;      
+    height: 10vh;      
     padding-left: 0;
     padding-top: 5vh;
   }
