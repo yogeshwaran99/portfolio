@@ -1,6 +1,8 @@
 .projects-section {
   padding: 0 10%;
   height: 100vh;  
+  --swiper-pagination-bullet-inactive-opacity:0.4;
+  --swiper-navigation-size:35px;
 }
 
 .projects-heading {
@@ -56,10 +58,11 @@
   background-color:#007aff;
 }
 
+
 @media screen and (min-width: 600px){    
 
   .projects-section{
-    padding:0 100px;       
+    padding:0 100px;         
   }
 
   .projects-heading{
@@ -72,6 +75,10 @@
     height: 58vh;
     gap: 5px;
     padding: 15px;
+  }
+
+  .projects-section .swiper {
+    padding: 0 40px; 
   }
 
 }

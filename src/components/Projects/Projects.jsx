@@ -3,9 +3,10 @@ import IMG2 from "../../assets/ecommerce.png";
 import IMG3 from "../../assets/to_do_list.png";
 import IMG4 from "../../assets/snakegame.png";
 import {Swiper, SwiperSlide} from "swiper/react";
-import {Pagination} from "swiper/modules";
+import {Pagination, Navigation} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import "./projects.css";
 
 function Projects() {
@@ -50,10 +51,11 @@ function Projects() {
       <h1 className="projects-heading">Projects</h1>
       <div className="card-container">
         <Swiper
-          modules={[Pagination]}
+          modules={[Pagination, Navigation]}
           pagination={{clickable: true}}
           spaceBetween={30}
           loop={true}
+          navigation={window.innerWidth > 768}
           breakpoints={{
             0: {
               slidesPerView: 1,
