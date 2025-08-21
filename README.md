@@ -2,14 +2,9 @@
 
 A personal portfolio website built with **React**.
 
-## Preview
-
-![preview](https://raw.githubusercontent.com/yogeshwaran99/portfolio/main/public/preview.png)
-
 ## Features
 
 - Responsive design  
-- Project showcase section  
 - **Auto deployment to GitHub Pages using GitHub Actions**  
 - **Dockerized for easy containerized setup**
 
@@ -72,4 +67,9 @@ docker run -p 3000:80 portfolio
 # Project will start at
 http://localhost:3000
 ```
+
+## Preview
+
+![preview](https://raw.githubusercontent.com/yogeshwaran99/portfolio/main/public/preview.png)
+
 
