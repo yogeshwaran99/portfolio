@@ -33,7 +33,7 @@ npm run dev
 ## Run with Docker
 
 ```bash
-docker build -t portfolio 
+docker build -t portfolio .
 docker run -p 3000:80 portfolio
 ```
 
