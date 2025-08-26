@@ -29,8 +29,8 @@ function About() {
           <span className="highlight">Tmux</span>, and{" "}
           <span className="highlight">Linux</span>, along with other developer
           tools. Regularly use <span className="highlight">Docker</span> for
-          containerization, <span className="highlight">Postman</span> for API
-          testing, and <span className="highlight">GitHub</span> for version
+          containerization, <span className="highlight">cURL</span> for API
+          testing, and <span className="highlight">Git</span> for version
           control.
         </p>
 
