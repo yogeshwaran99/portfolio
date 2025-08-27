@@ -25,9 +25,9 @@ function About() {
 
 
         <p>
-          My workflow centers around <span className="highlight">Vim</span>,{" "}
+          My workflow centers around <span className="highlight">Linux</span>,{" "}
           <span className="highlight">Tmux</span>, and{" "}
-          <span className="highlight">Linux</span>, along with other developer
+          <span className="highlight">Vim</span>, along with other developer
           tools. Regularly use <span className="highlight">Docker</span> for
           containerization, <span className="highlight">cURL</span> for API
           testing, and <span className="highlight">Git</span> for version
