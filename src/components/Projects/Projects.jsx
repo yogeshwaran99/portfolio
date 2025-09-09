@@ -32,8 +32,8 @@ function Projects() {
       title: "To-Do List",
       img: IMG3,
       description:
-        "This is a simple to-do list application that allows users to add, update, delete, and mark tasks as completed. It is built with the MERN stack and uses Axios for REST API implementation.",
-      github: "https://github.com/yogeshwaran99/to-do-list",
+        "This is a simple to-do list application that allows users to add, update, delete, and mark tasks as completed. It is built with React and Spring Boot, and uses Axios to interact with the REST API.",
+      github: "https://github.com/yogeshwaran99/miniprojects/tree/main/todolist",
     },
     {
       id: 4,
