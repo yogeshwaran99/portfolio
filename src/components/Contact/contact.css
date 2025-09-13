@@ -52,11 +52,15 @@
   margin: 8% 0;
   padding: 3%;
   background-color: inherit;
-  border: 1px solid rgba(64, 133, 197, 0.74);
+  border: 2px solid rgba(64, 133, 197, 0.74);
+  outline:none;
   color: inherit;
   resize: none;
 }
-
+.contact-textarea:focus{
+  border: 2px solid rgb(64,133,197);
+  box-shadow: 0 0 4px cyan;
+}
 .contact-button {
   padding: 1px 7px;
   border-radius: 10px;
