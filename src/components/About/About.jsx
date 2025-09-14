@@ -20,7 +20,7 @@ function About() {
           <span className="highlight">SQL</span> to create robust, high-performance APIs, while the frontend is crafted with{" "}
           <span className="highlight">React</span>,{" "}
           <span className="highlight">HTML</span> and{" "}
-          <span className="highlight">CSS</span> for responsive and intuitive user experiences.
+          <span className="highlight">Tailwind CSS</span> for responsive and intuitive user experiences.
         </p>
 
 
