@@ -1,5 +1,5 @@
-import { useRef } from "react";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import {useRef} from "react";
+import {FaLinkedin, FaGithub, FaInstagram} from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
@@ -71,6 +71,8 @@ const Contact = () => {
             >
               <FaLinkedin className="fa-icon" />
             </a>
+          </div>
+          <p className="social-insta">
             <a
               href="https://github.com/yogeshwaran99"
               target="_blank"
@@ -79,16 +81,7 @@ const Contact = () => {
             >
               <FaGithub className="fa-icon" />
             </a>
-          </div>
-          <p className="social-insta">
-            <a
-              href="https://www.instagram.com/yogeshwaran99"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="white-link"
-            >
-              <FaInstagram className="fa-icon" />
-            </a>
+
           </p>
         </div>
       </div>
