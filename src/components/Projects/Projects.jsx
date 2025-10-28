@@ -2,6 +2,8 @@ import IMG1 from "../../assets/whiteboard.png";
 import IMG2 from "../../assets/ecommerce.png";
 import IMG3 from "../../assets/to_do_list.png";
 import IMG4 from "../../assets/snakegame.png";
+import IMG5 from "../../assets/landingpage.png";
+import IMG6 from "../../assets/blog.png";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Pagination, Navigation} from "swiper/modules";
 import "swiper/css";
@@ -41,8 +43,21 @@ function Projects() {
       img: IMG4,
       description:
         "The Snake Game in Java involves guiding a snake to eat food, grow, and avoid collisions. Built with Swing, it features random food generation, and a scoring system.",
-      github:
-        "https://github.com/yogeshwaran99/MiniProjects/tree/main/SnakeGame",
+      github: "https://github.com/yogeshwaran99/MiniProjects/tree/main/SnakeGame",
+    },
+    {
+      id: 5,
+      title: "Landing Page",
+      img: IMG5,
+      description: "A modern single-page SaaS landing page built with React and Tailwind CSS, featuring a hero section, pricing, FAQ, and responsive design and smooth user interface.",
+      github: "https://github.com/yogeshwaran99/landingpage",
+    },
+    {
+      id: 6,
+      title: "Blogger",
+      img: IMG6,
+      description: "This project is a blog platform built using Java Servlets (Jakarta EE) for the backend and  HTML, CSS, JavaScript frontend. It     allows users to create, read, update, and delete posts.",
+      github: "https://github.com/yogeshwaran99/miniprojects/tree/main/Blogger",
     },
   ];
 
