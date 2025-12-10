@@ -63,14 +63,14 @@ const Contact = () => {
         </div>
         <div className="contact-footer">
           <div className="social-icons">
-            <a
+            {/*            <a
               href="https://www.linkedin.com/in/yogeshwaran44"
               target="_blank"
               rel="noopener noreferrer"
               className="white-link"
             >
               <FaLinkedin className="fa-icon" />
-            </a>
+            </a>*/}
           </div>
           <p className="social-insta">
             <a
